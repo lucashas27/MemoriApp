@@ -1,14 +1,12 @@
 
 package memoriapp;
 
-import java.util.Date;
-
 public class Meta extends Calendario {
     
     //attribute
     private String cor;
     private String novaAtividade;
-    private Date diaSemanal;
+    private int diaSemanal;
 
     //method
     public void alterarCor(){
@@ -26,7 +24,7 @@ public class Meta extends Calendario {
 
     // constructor 
 
-    public Meta(String cor, String novaAtividade, Date diaSemanal, String metas, String dicas, String meuDia, String diaMensal) {
+    public Meta(String cor, String novaAtividade, int diaSemanal, String metas, String dicas, String meuDia, String diaMensal) {
         super(metas, dicas, meuDia, diaMensal);
         this.cor = cor;
         this.novaAtividade = novaAtividade;
@@ -49,15 +47,16 @@ public class Meta extends Calendario {
         return novaAtividade;
     }
 
-    public void setNovaAtividade(String novaAtividade) {
+    public String setNovaAtividade(String novaAtividade) {
         this.novaAtividade = novaAtividade;
+        return novaAtividade;
     }
 
-    public Date getDiaSemanal() {
+    public int getDiaSemanal() {
         return diaSemanal;
     }
 
-    public void setDiaSemanal(Date diaSemanal) {
+    public void setDiaSemanal(int diaSemanal) {
         this.diaSemanal = diaSemanal;
     }
     

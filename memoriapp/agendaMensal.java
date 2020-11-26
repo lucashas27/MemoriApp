@@ -7,9 +7,8 @@ public class agendaMensal extends Calendario {
         public String eventosSemanais, relatorio;
         
 
-    public agendaMensal(Boolean darkMode, String eventosSemanais, String relatorio, String metas, String dicas, String meuDia, String diaMensal) {
+    public agendaMensal(int darkMode, String eventosSemanais, String relatorio, String metas, String dicas, String meuDia, String diaMensal) {
         super(metas, dicas, meuDia, diaMensal);
-        this.darkMode = darkMode;
         this.eventosSemanais = eventosSemanais;
         this.relatorio = relatorio;
     }

@@ -39,8 +39,9 @@ public class Usuario_Lista {
         return primeiroNome;
     }
 
-    public void setPrimeiroNome(String primeiroNome) {
+    public String setPrimeiroNome(String primeiroNome) {
         this.primeiroNome = primeiroNome;
+        return primeiroNome;
     }
 
     public String getUltimoNome() {

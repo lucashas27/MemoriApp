@@ -9,7 +9,7 @@ public class novaAtividade extends agendaMensal {
 
     }
 
-    public novaAtividade(String classificacaoDeAtividades, Boolean darkMode, String eventosSemanais, String relatorio, String metas, String dicas, String meuDia, String diaMensal) {
+    public novaAtividade(String classificacaoDeAtividades, int darkMode, String eventosSemanais, String relatorio, String metas, String dicas, String meuDia, String diaMensal) {
         super(darkMode, eventosSemanais, relatorio, metas, dicas, meuDia, diaMensal);
         this.classificacaoDeAtividades = classificacaoDeAtividades;
     }

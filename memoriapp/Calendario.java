@@ -35,8 +35,9 @@ public class Calendario {
         return dicas;
     }
 
-    public void setDicas(String dicas) {
+    public String setDicas(String dicas) {
         this.dicas = dicas;
+        return dicas;
     }
 
     public String getMeuDia() {
@@ -54,8 +55,9 @@ public class Calendario {
     public void setDiaMensal(String diaMensal) {
         this.diaMensal = diaMensal;
     }
-    
-    
-    
-        
+
+
+    public String setDiaMensal() {
+        return null;
     }
+}
